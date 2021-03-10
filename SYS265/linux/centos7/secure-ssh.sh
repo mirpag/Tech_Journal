@@ -1,3 +1,4 @@
+#!/bin/bash
 #secure-ssh.sh
 #author mirpag
 #creates a new ssh user using $1 parameter
