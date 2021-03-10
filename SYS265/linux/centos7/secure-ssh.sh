@@ -11,7 +11,7 @@ sudo useradd -m -d /home/$1 -s /bin/bash $1
 echo "mkdir"
 sudo mkdir /home/$1/.ssh
 echo "copy pub key"
-sudo cp SYS265/linux/public-keys/id_rsa.pub /home/$1/.ssh/authorized_keys
+sudo cp /Tech_Journal/SYS265/linux/public-keys/id_rsa.pub /home/$1/.ssh/authorized_keys
 echo "chmod .ssh"
 sudo chmod 700 /home/$1/.ssh
 echo "chmod .ssh/authorized_keys"
