@@ -1,9 +1,9 @@
 #!/bin/bash
-#secure-ssh.sh
-#author mirpag
-#creates a new ssh user using $1 parameter
-#adds a public key from the local repo or curled from the remote repo
-#removes roots ability to ssh in
+# secure-ssh.sh
+# author mirpag
+# creates a new ssh user using $1 parameter
+# adds a public key from the local repo or curled from the remote repo
+# removes roots ability to ssh in
 echo "Running script..." 
 
 echo "ADD USER"
