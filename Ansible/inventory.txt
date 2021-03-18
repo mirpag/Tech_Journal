@@ -1,0 +1,9 @@
+[tomcat]
+ansible1-miranda
+[webmin]
+ansible2-miranda
+[windows]
+mgmt01-miranda
+wks01-miranda
+[windows:vars]
+ansible_shell_type=powershell
